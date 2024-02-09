@@ -1,1 +1,21 @@
-This is style.css in WebDev/day8
+#FirstDiv{
+    background-color: brown;
+    color: red;
+}
+
+#SecondDiv{
+    background-color: blue;
+    color: black;
+}
+
+.red{
+    color: green;
+}
+.bg-yellow{
+    font: 900;
+    text-align: center;
+    padding: 25px;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
