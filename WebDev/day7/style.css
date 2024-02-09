@@ -1,1 +1,20 @@
-This is style.css in WebDev/day7
+a{
+    background-color: red;
+}
+
+span{
+    background-color: rgb(86, 43, 203);
+}
+
+p{
+    background-color: orange;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+    color: ;
+     background-color:chartreuse
+
+}
