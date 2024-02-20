@@ -1,1 +1,80 @@
-This is index.html in WebDev/day34
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* .box:first-child {
+      background-color: blue;
+      color: aliceblue;
+    } */
+
+    /* .box::first-line {
+      background-color: yellow;
+    } */
+
+    /* .boxes *{
+        color: black;
+        border: 2px solid black;
+    } */
+
+    /* p , a, .box, [data-color ="primary"]{
+        padding-top: 35px;
+    } */
+
+    /* .box:nth-child(odd){
+        background-color: pink;
+        color: red;
+    } */
+    /* .box:nth-child(even){
+        background-color: pink;
+        color: red;
+    } */
+    .box:nth-last-child(2) {
+      background-color: red;
+    }
+    .boxes::before {
+      content: "Tanishq is good";
+      color: blue;
+    }
+
+    .boxes::after {
+      content: "Sigma course is also good";
+      color: red;
+    }
+    input {
+      padding: 20px;
+      margin: 20px;
+      display: block;
+      border: 2px solid red;
+    }
+    .box::first-letter {
+      color: cornflowerblue;
+      font-size: 45px;
+    }
+
+    ::selection {
+      background-color: black;
+      color: aqua;
+    }
+
+    input::placeholder {
+      color: rgb(115, 184, 188);
+    }
+  </style>
+  <body>
+    <div class="boxes">
+      <div [data-color="primary" class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt error
+        dignissimos aliquid illum nulla alias veniam quibusdam nihil. Ea illum
+        totam, nam quam repellat numquam, necessitatibus dolores fugiat hic
+        labore aliquam, obcaecati corrupti voluptatem doloremque aperiam.
+      </div>
+      <div class="box">Hey I am a box</div>
+      <div class="box">Hey I am a box</div>
+      <input type="text" placeholder="Type your name here" />
+    </div>
+  </body>
+</html>
