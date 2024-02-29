@@ -1,1 +1,54 @@
-This is index.html in WebDev/day18
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fonts, Text and Color</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+        h1 {
+            font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        p {
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-size: 20px; 
+            /* font-style:italic; */
+            /* font-weight: 500;  */
+        }
+
+        h2{
+            text-align: center;
+            /* text-decoration:underline; */
+            text-transform: uppercase;
+            text-decoration-line: overline;
+            text-decoration-thickness: 6px;
+            text-decoration-color: brown;
+            /* text-decoration-style: dashed; */
+            /* text-indent: 45px;*/
+
+        }
+
+        .Lorem{
+            color: blueviolet;
+            border: 2px solid pink;
+            width:240px;
+            word-break: break-all;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Fonts</h1>
+    <h2>About fonts</h2>
+    <p>This file is about fonts</p>
+    <p class = "Lorem"> 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+      voluptatibus architecto cumque cum, libero cupiditate tempora laboriosam
+      maiores aperiam distinctio nihil repudiandae quasi eius omnis deserunt
+      placeat doloribus. Harum, odit?
+    </p>
+  </body>
+</html>
