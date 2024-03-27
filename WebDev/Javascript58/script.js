@@ -31,3 +31,5 @@ const func1 = (x)=>{
 func1(34);
 func1(66);
 func1(84);
+
+console.log("Tanishq is the best")
