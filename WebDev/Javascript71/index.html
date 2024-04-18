@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .red{
+        color: red;
+    }
+</style>
 <body>
-    
+    <div class="container">
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+    </div>
+    <script>
+        let div = document.createElement("div");
+        div.innerHTML = "i became a multi-billonare <b> at the age of 25 </b>";
+        div.setAttribute("class","created");
+        document.querySelector(".container").before(div);
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("beforebegin","<b> i am living the best lifr life anyone can possably live</b> Thank you God for all this")
+    </script>
 </body>
 </html>
