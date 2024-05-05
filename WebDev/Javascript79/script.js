@@ -25,4 +25,4 @@ function main(){
     }
 }
 
-let c = main()
+let c = 
