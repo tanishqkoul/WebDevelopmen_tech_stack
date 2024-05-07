@@ -16,7 +16,12 @@ function main(){
         console.lo("The sum is " , sum *x)
         return true
     }
-  
+    catch(err){
+        console.log("Mere bhai error ah gaya . Dakh le syntax hoga pakka")
+        return false
+    }
+    finally{
+        console.log("all the files will be closed shortly")
+    }
 }
 
-let c = main()
