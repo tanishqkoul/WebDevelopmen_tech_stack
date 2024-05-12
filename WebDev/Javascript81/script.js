@@ -41,3 +41,4 @@ async function main() {
     clearInterval(t); // Stops the interval function 't'
 }
 
+main(); // Calls the main function
