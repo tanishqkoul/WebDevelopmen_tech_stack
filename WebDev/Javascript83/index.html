@@ -17,7 +17,10 @@
             document.querySelector(".note").innerHTML = note
         }
         
-        d
+        document.querySelector("button").addEventListener("click", () => {
+            let note = prompt("Enter your note")
+            saveNoteToLocalStorage(note)
+            document.querySelector(".note").innerHTML = note
         })
 
 
