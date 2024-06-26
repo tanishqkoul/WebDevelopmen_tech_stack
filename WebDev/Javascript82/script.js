@@ -26,14 +26,3 @@ console.log(a1);
 })()
 
 
-const sleep = async ()=>{
-    return new Promise((resolve,reject)=>{
-        setTimeout(() => {
-            resolve(45)
-    },1000)
-})
-}
-
-const sum = async (a,b,c)=>{
-    return a+b+c
-}
