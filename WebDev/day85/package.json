@@ -1,0 +1,18 @@
+{
+  "name": "spotidy",
+  "version": "1.0.0",
+  "description": "okay great",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "tanishq",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "slugify": "^1.6.6"
+  }
+}
