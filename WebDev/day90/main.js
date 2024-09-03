@@ -10,9 +10,11 @@ app.use("/blog", blog)
 // Middleware one logger for our application
 app.use((req,res,next)=>{
     console.log(req.headers)
-    req.Tansihq = "Hi i am Tanishq bhai"
-    fs.appendFileSync("logs.txt", `${Time.now()} is a ${req.method}\n`)
-    console.log(`${Date.now()} is a ${req.method}\n`)
+    req.Tanishq = "Hi i am Tanishq bhai"
+    const currentTime = new Date().toLocaleString(); // Get current time as a string
+    fs.appendFileSync("logs.txt", `${currentTime} is a ${req.method}\n`); // Log with time
+    console.log(`${currentTime} is a ${req.method}\n`); // Log with time
+    next();
     // res.send("Send by middleware one")
     next()
 })
