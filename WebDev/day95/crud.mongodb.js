@@ -94,3 +94,8 @@ db.createCollection("courses")
 
 // DELETE
 
+db.courses.deleteOne({price: 1000})
+
+db.courses.deleteMany({price: 1000})
+
+// https://www.mongodb.com/docs/manual/reference/operator/query/
