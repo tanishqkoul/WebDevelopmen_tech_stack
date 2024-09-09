@@ -92,3 +92,10 @@ db.createCollection("courses")
 // db.courses.updateMany({price: 0}, {$set:{price: 1000}})
 
 
+// DELETE
+
+db.courses.deleteOne({price: 1000})
+
+db.courses.deleteMany({price: 1000})
+
+// https://www.mongodb.com/docs/manual/reference/operator/query/
