@@ -1,1 +1,2 @@
-This is script.js in WebDev/day103
+console.log("Tanishw is the best")
+document.getElementsByClassName(tanishw)
